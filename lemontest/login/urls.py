@@ -1,10 +1,8 @@
 from django.urls import path
-from . import views
-"""urlpatterns = [
-    path('', views.index),	   
-]"""
-
 from django.conf import settings
+
+from . import views
+
 
 if settings.DEBUG:
     urlpatterns = [

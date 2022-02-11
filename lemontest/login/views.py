@@ -1,12 +1,9 @@
-"""from django.shortcuts import render, HttpResponse
-def index(request):
-    return HttpResponse("this is the equivalent of @app.route('/')!")"""
-
-
 from django.conf import settings
 from django.core.exceptions import SuspiciousOperation
 from django.shortcuts import render
+
 from lemonldap.auth.middleware import LemonldapAuthenticationMiddleware
+
 
 def debug(request):
     if not settings.DEBUG:
