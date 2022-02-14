@@ -1,0 +1,29 @@
+
+#Run these commands on your terminal
+
+- records an environment's current package list into requirements. txt.
+        
+    $ pip freeze > requirements.txt 
+
+- build a docker image 
+    
+    $ docker build --tag python-django .
+
+- Run the docker image just created
+
+    $ docker run --publish 8000:8000 python-django
+
+
+- check if the container is running 
+
+$  docker container ps
+
+The result should be similar to this:
+CONTAINER ID   IMAGE              COMMAND                  CREATED          STATUS                    PORTS                            
+c6c0e0c938c5   python-django  "python3 manage.py r…"   1 minutes ago   Up 1 minutes             0.0.0.0:8000->8000/tcp, :::8000->8000/tcp
+
+
+- go to these endpoints 
+
+http://127.0.0.1:8000/accounts/login/
+http://127.0.0.1:8000/admin/
