@@ -1,6 +1,6 @@
 # SPIKELemonldap
 # Is the community active?
-Yes, the community is active on GitLab. However, there are'nt videos to serve as a guide or the documentation is very old in some cases like the Django's connector or the LemonLDAP::NG in Kubernetes.
+Yes, the community is active on GitLab. However, there aren't videos to serve as a guide or the documentation is very old in some cases like the Django's connector or the LemonLDAP::NG in Kubernetes.
 
 https://gitlab.ow2.org/lemonldap-ng
 
